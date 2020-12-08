@@ -93,7 +93,7 @@ background-color: #fff !important;
     font-size: 24px;
 }
 
-#header .btn-get-started{
+#header .btn-get-started2{
     font-weight: 500;
     font-size:16px;
     letter-spacing:1px;
@@ -106,7 +106,7 @@ background-color: #fff !important;
     text-decoration: none;
 }
 
-#header .btn-get-started:hover{
+#header .btn-get-started2:hover{
     background-color: red;
     color: #fff;
 }
@@ -132,10 +132,10 @@ background-color: #fff !important;
     text-align: center;
     border-radius: 25px;
   border-style:20px;
-  box-shadow: 0 2px 2px 0;
+  box-shadow: 2px 2px 2px 1px;
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: white;
   margin:5%;
 }
 .howhead{
@@ -145,15 +145,13 @@ background-color: #fff !important;
     
 }
 
-nav ul li {
+ nav ul li {
     display:inline-block;
     border-radius: 0px;
     background-color:white;
     overflow: none;
     padding: 0;
     width: auto;
-}
-/* .emoji{
-    margin-top:60px;
-} */
+} 
+
 

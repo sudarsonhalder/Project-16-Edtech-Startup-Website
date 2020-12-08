@@ -2,10 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (<>
-    <div className='container-fluid nav bg'>
+    <div className='container-fluid nav_bg'>
         <div className='row'>
             <div className='col-10 mx-auto'>
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-light mr-auto">
+            <div className="container-fluid">
             <NavLink className="navbar-brand" to="/">Edtech</NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -34,6 +35,7 @@ const Navbar = () => {
                         <NavLink activeclassName="menu_active" className="nav-link" to="/Exam">Exams</NavLink>
                     </li>
                 </ul>
+            </div>
             </div>
         </nav>
         </div>

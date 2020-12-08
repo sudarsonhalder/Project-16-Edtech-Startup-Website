@@ -1,0 +1,28 @@
+.brand-name{
+    color: #3498db;
+    text-align: center;
+}
+.brand-name2{
+    text-align: center;
+}
+.paracard5{
+    margin-top:20px;
+    color:black;
+   }
+   .cardimg5{
+      width:95px;
+      height:100px;
+      
+   }
+   
+   .maincard5{
+    color:grey;
+    text-align: center;
+    border-radius: 25px;
+  border-style:20px;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  margin:5%;
+   }
