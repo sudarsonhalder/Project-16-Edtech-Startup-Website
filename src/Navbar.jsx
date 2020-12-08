@@ -13,7 +13,7 @@ const Navbar = () => {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
                         <NavLink 
                         activeclassName="menu_active" exact className="nav-link"
